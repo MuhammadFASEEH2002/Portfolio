@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 60px;
+    background: black; 
+    color: white;  
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    z-index: 1;
+}
+nav h1{
+    display: inline-block;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+   margin-top: 12px;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    display: block;
+  padding: 8px;
+cursor: pointer;
+  margin-left: 20px;
+ }
+.introduction{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.introduction .profile-img{
+    margin-top: 15vh;
+    height: 35%;
+    width: 20%;
+    border-radius: 50%;
+   
+    position: absolute;
+ 
+}
+.introduction h1{
+position: absolute;
+top: 65vh;
+
+}
+.introduction p{
+    font-size: 150%;
+    width: 50%;
+    position: absolute;
+    top: 75vh;
+   
+    text-align: center;
+}
+.education{
+      width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+.education h1{
+position: absolute;
+top: 125vh;
+
+}
+.education ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+   top: 140%;
+
+   margin-top: 20px;
+}
+.institute-name{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px;
+}
+.education-details{
+    font-size: 20px;
+    margin: 10px;
+}
+.experience{
+    width: 100vw;
+  height: 100vh;
+} 
