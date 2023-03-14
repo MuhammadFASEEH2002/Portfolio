@@ -8,7 +8,6 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
 nav{
     height: 60px;
     background: black; 
@@ -104,4 +103,8 @@ top: 125vh;
 .experience{
     width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 } 
