@@ -5,43 +5,51 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    overflow-y: scroll;
-    overflow-x: hidden;
+
 }
-nav{
-    height: 60px;
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+.navigation{
+    height: 100vh;
+    width: 30vw;
     background: black; 
     color: white;  
     position: sticky;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     top: 0;
-    z-index: 1;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
-nav h1{
-    display: inline-block;
+.navigation h1{
+  
+    margin-top: 10%; 
+    text-align: center; 
 }
-nav ul {
+.navigation ul {
+    margin-top: 10%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;  
-    position: absolute;
-   margin-top: 12px;
-  }
-  nav ul li{
-    display: inline-block;
-    margin-left: 20px;
-  }
-  nav ul li a{
+    text-align: center; 
+
+}
+.navigation ul li{
+ margin-top: 10%;
+}
+.navigation ul li a{
     text-decoration: none;
     display: block;
-  padding: 8px;
-cursor: pointer;
-  margin-left: 20px;
- }
-.introduction{
-    width: 100vw;
-    height: 100vh;
+    cursor: pointer;
+}
+.content{
+    height: 100vw;
+    width: 70vw;
+}
+ .introduction{
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -52,26 +60,20 @@ cursor: pointer;
     height: 35%;
     width: 20%;
     border-radius: 50%;
-   
     position: absolute;
- 
 }
 .introduction h1{
-position: absolute;
-top: 65vh;
-
+   position: absolute;
+   top: 65vh;
 }
 .introduction p{
-    font-size: 150%;
+    font-size: 1.5em;
     width: 50%;
     position: absolute;
     top: 75vh;
-   
     text-align: center;
 }
-.education{
-      width: 100vw;
-    height: 100vh;
+ .education{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -91,6 +93,7 @@ top: 125vh;
 
    margin-top: 20px;
 }
+
 .institute-name{
     font-size: 23px;
     font-weight: bold;
@@ -107,4 +110,4 @@ top: 125vh;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-} 
+}  */ 
