@@ -10,10 +10,14 @@ body{
 .main-container{
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .navigation{
-    height: 100vh;
-    width: 30vw;
+    height: 100%;
+    width: 35%;
     background: black; 
     color: white;  
     position: sticky;
@@ -22,8 +26,7 @@ body{
     flex-wrap: wrap;
     top: 0;
     left: 0;
-    overflow-y: hidden;
-    overflow-x: hidden;
+   
 }
 .navigation h1{
   
@@ -45,8 +48,8 @@ body{
     cursor: pointer;
 }
 .content{
-    height: 100vw;
-    width: 70vw;
+    height: 100%;
+    width: 65%;
 }
  .introduction{
 
@@ -81,7 +84,7 @@ body{
 } 
 .education h1{
 position: absolute;
-top: 125vh;
+top: 25vh;
 
 }
 .education ul{
@@ -89,7 +92,7 @@ top: 125vh;
     margin: 0;
     padding: 0;  
     position: absolute;
-   top: 140%;
+   top: 40%;
 
    margin-top: 20px;
 }
@@ -104,10 +107,31 @@ top: 125vh;
     margin: 10px;
 }
 .experience{
-    width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-}  */ 
+}  
+.experience h1{
+    position: absolute;
+    top:225vh;
+}
+.experience ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+   top: 240%;
+
+   margin-top: 20px;
+}
+
+.company-name{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px;
+}
+.experience-details{
+    font-size: 20px;
+    margin: 10px;
+}
