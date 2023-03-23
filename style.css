@@ -4,12 +4,11 @@
     padding: 0;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
 
-}
 .main-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
     overflow-y: hidden;
@@ -21,9 +20,7 @@ body{
     background: black; 
     color: white;  
     position: sticky;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+ 
     top: 0;
     left: 0;
    
@@ -50,88 +47,4 @@ body{
 .content{
     height: 100%;
     width: 65%;
-}
- .introduction{
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.introduction .profile-img{
-    margin-top: 15vh;
-    height: 35%;
-    width: 20%;
-    border-radius: 50%;
-    position: absolute;
-}
-.introduction h1{
-   position: absolute;
-   top: 65vh;
-}
-.introduction p{
-    font-size: 1.5em;
-    width: 50%;
-    position: absolute;
-    top: 75vh;
-    text-align: center;
-}
- .education{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-} 
-.education h1{
-position: absolute;
-top: 25vh;
-
-}
-.education ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;  
-    position: absolute;
-   top: 40%;
-
-   margin-top: 20px;
-}
-
-.institute-name{
-    font-size: 23px;
-    font-weight: bold;
-    margin: 15px;
-}
-.education-details{
-    font-size: 20px;
-    margin: 10px;
-}
-.experience{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}  
-.experience h1{
-    position: absolute;
-    top:225vh;
-}
-.experience ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;  
-    position: absolute;
-   top: 240%;
-
-   margin-top: 20px;
-}
-
-.company-name{
-    font-size: 23px;
-    font-weight: bold;
-    margin: 15px;
-}
-.experience-details{
-    font-size: 20px;
-    margin: 10px;
 }

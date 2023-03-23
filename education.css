@@ -1,0 +1,31 @@
+ 
+ .education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+.education h1{
+position: absolute;
+top: 25vh;
+
+}
+.education ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+   top: 40%;
+
+   margin-top: 20px;
+}
+
+.institute-name{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px;
+}
+.education-details{
+    font-size: 20px;
+    margin: 10px;
+}
