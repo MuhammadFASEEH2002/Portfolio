@@ -6,7 +6,7 @@
   }  
   .experience h1{
       position: absolute;
-      top:25vh;
+      top:25%;
   }
   .experience ul{
       list-style-type: none;
@@ -14,7 +14,6 @@
       padding: 0;  
       position: absolute;
      top: 40%;
-  
      margin-top: 20px;
   }
   
