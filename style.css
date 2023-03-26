@@ -35,7 +35,7 @@ body{
     text-align: center; 
 }
 .navigation ul {
-    margin-top: 10%;
+    margin-top: 25%;
     list-style-type: none;
     text-align: center; 
 
@@ -58,14 +58,13 @@ body{
 }
 /* index.css */
 .introduction{
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
 .introduction .profile-img{
-    margin-top: 10%;
+    margin-top: 5%;
     height: 35%;
     width: 20%;
     border-radius: 50%;
@@ -73,13 +72,13 @@ body{
 }
 .introduction h1{
    position: absolute;
-   top: 65%;
+   top: 50%;
 }
 .introduction p{
     font-size: 1.5em;
     width: 50%;
     position: absolute;
-    top: 75%;
+    top: 60%;
     text-align: center;
 }
 /* education.css */
@@ -87,21 +86,18 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-   
+    align-items: center;   
 } 
 .education h1{
 position: absolute;
-top: 25%;
-
+top: 15%;
 }
 .education ul{
     list-style-type: none;
     margin: 0;
     padding: 0;  
     position: absolute;
-   top: 40%;
-
+   top: 25%;
    margin-top: 20px;
 }
 
@@ -113,6 +109,7 @@ top: 25%;
 .education-details{
     font-size: 20px;
     margin: 10px;
+    padding-left: 1%;
 }
 /* experience.css */
 .experience{
@@ -123,14 +120,14 @@ top: 25%;
   }  
   .experience h1{
       position: absolute;
-      top:25%;
+      top:15%;
   }
   .experience ul{
       list-style-type: none;
       margin: 0;
       padding: 0;  
       position: absolute;
-     top: 40%;
+     top: 25%;
      margin-top: 20px;
   }
   
@@ -142,4 +139,35 @@ top: 25%;
   .experience-details{
       font-size: 20px;
       margin: 10px;
+      padding-left: 1%;
+  }
+  /* projects.css */
+  .projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }  
+  .projects h1{
+      position: absolute;
+      top:15%;
+  }
+  .projects ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;  
+      position: absolute;
+     top: 25%;
+     margin-top: 20px;
+  }
+  
+  .project-name{
+      font-size: 23px;
+      font-weight: bold;
+      margin: 15px;
+  }
+  .project-details{
+      font-size: 20px;
+      margin: 10px;
+      padding-left: 1%;
   }
