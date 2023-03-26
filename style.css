@@ -52,3 +52,94 @@ body{
     height: 100%;
     width: 70%;
 }
+
+.hidden{
+    visibility: hidden;
+}
+/* index.css */
+.introduction{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.introduction .profile-img{
+    margin-top: 10%;
+    height: 35%;
+    width: 20%;
+    border-radius: 50%;
+    position: absolute;
+}
+.introduction h1{
+   position: absolute;
+   top: 65%;
+}
+.introduction p{
+    font-size: 1.5em;
+    width: 50%;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+}
+/* education.css */
+.education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   
+} 
+.education h1{
+position: absolute;
+top: 25%;
+
+}
+.education ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+   top: 40%;
+
+   margin-top: 20px;
+}
+
+.institute-name{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px;
+}
+.education-details{
+    font-size: 20px;
+    margin: 10px;
+}
+/* experience.css */
+.experience{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }  
+  .experience h1{
+      position: absolute;
+      top:25%;
+  }
+  .experience ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;  
+      position: absolute;
+     top: 40%;
+     margin-top: 20px;
+  }
+  
+  .company-name{
+      font-size: 23px;
+      font-weight: bold;
+      margin: 15px;
+  }
+  .experience-details{
+      font-size: 20px;
+      margin: 10px;
+  }
