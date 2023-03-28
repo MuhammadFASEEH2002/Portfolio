@@ -21,7 +21,7 @@ body{
 .navigation{
     height: 100%;
     width: 30%;
-    background: black; 
+    background: #1E1C1C; 
     color: white;  
     position: sticky;
  
@@ -41,7 +41,13 @@ body{
 
 }
 .navigation ul li{
- margin-top: 10%;
+ margin-top: 5%;
+ padding: 5%;
+ cursor: pointer;
+}
+.navigation ul li:hover{
+    border: 3px solid black;
+   
 }
 .navigation ul li a{
     text-decoration: none;
@@ -51,6 +57,7 @@ body{
 .content{
     height: 100%;
     width: 70%;
+    background-color: #CCD5AE;
 }
 
 .hidden{
@@ -166,8 +173,26 @@ top: 15%;
       font-weight: bold;
       margin: 15px;
   }
+  .project-link {
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 1%;
+  }
+  .project-link a{
+    text-decoration: none;
+  }
   .project-details{
       font-size: 20px;
       margin: 10px;
       padding-left: 1%;
+  }
+  .more-projects{
+    position: absolute;
+    top: 80%;
+    align-items: center;
+    font-size: 23px;
+   
+  }
+  .more-projects a{
+    text-decoration: none;
   }
