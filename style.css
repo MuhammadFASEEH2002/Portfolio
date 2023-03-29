@@ -46,7 +46,7 @@ body{
  cursor: pointer;
 }
 .navigation ul li:hover{
-    border: 3px solid black;
+    border: 3px solid white;
    
 }
 .navigation ul li a{
@@ -57,7 +57,7 @@ body{
 .content{
     height: 100%;
     width: 70%;
-    background-color: #CCD5AE;
+    background-color: #FEFCF3;
 }
 
 .hidden{
@@ -195,4 +195,22 @@ top: 15%;
   }
   .more-projects a{
     text-decoration: none;
+  }
+
+
+
+  @media screen and (max-width: 480px) {
+ 
+    .navigation h1{
+        margin-top: 20%;
+        font-size: 1.2em;
+    }
+    .navigation ul{
+        margin-top: 60%;
+    }
+    .navigation ul li{
+        margin-top: 40%;
+       font-size: 0.7em;
+    }
+
   }
