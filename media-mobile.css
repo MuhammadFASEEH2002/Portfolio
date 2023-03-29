@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px) {
+    .navigation{
+        width: 33%;
+    }
+    .navigation h1{
+        margin-top: 20%;
+        font-size: 1.1em;
+    }
+    .navigation ul{
+        margin-top: 60%;
+    }
+    .navigation ul li{
+        margin-top: 40%;
+       font-size: 0.7em;
+    }
+    .content{
+        width: 67%;
+    }
+    .introduction .profile-img{
+        height: 27%;
+        width: 41%;
+    }
+    .introduction h1{
+        top: 35%;
+        font-size: 1.6em;
+    }
+    .introduction p{
+        font-size: 1em;
+        top: 50%;
+    }
+    .education h1{
+        top: 7%;
+        font-size: 1.6em;
+   }
+   .education ul{ 
+    top: 15%;
+    margin-top: 20px;
+   }
+   .institute-name{
+    font-size: 1em;
+    margin: 10px;
+   }
+   .education-details{
+    font-size: 0.9em;
+    margin: 12px;
+   }
+   .experience h1{
+    top: 7%;
+    font-size:1.6em ;
+   }
+   .experience ul{
+    top: 15%;
+    margin-top: 10%;
+   }
+   .company-name{
+    font-size: 1em;
+    margin: 10px;
+   }
+   .experience-details{
+    font-size: 0.9em;
+    margin: 12px;
+   }
+  }

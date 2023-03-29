@@ -24,13 +24,10 @@ body{
     background: #1E1C1C; 
     color: white;  
     position: sticky;
- 
     top: 0;
     left: 0;
-   
 }
 .navigation h1{
-  
     margin-top: 10%; 
     text-align: center; 
 }
@@ -38,7 +35,6 @@ body{
     margin-top: 25%;
     list-style-type: none;
     text-align: center; 
-
 }
 .navigation ul li{
  margin-top: 5%;
@@ -46,8 +42,7 @@ body{
  cursor: pointer;
 }
 .navigation ul li:hover{
-    border: 3px solid white;
-   
+    border: 3px solid white;  
 }
 .navigation ul li a{
     text-decoration: none;
@@ -59,7 +54,6 @@ body{
     width: 70%;
     background-color: #FEFCF3;
 }
-
 .hidden{
     visibility: hidden;
 }
@@ -107,7 +101,6 @@ top: 15%;
    top: 25%;
    margin-top: 20px;
 }
-
 .institute-name{
     font-size: 23px;
     font-weight: bold;
@@ -137,7 +130,6 @@ top: 15%;
      top: 25%;
      margin-top: 20px;
   }
-  
   .company-name{
       font-size: 23px;
       font-weight: bold;
@@ -167,7 +159,6 @@ top: 15%;
      top: 25%;
      margin-top: 20px;
   }
-  
   .project-name{
       font-size: 23px;
       font-weight: bold;
@@ -190,46 +181,8 @@ top: 15%;
     position: absolute;
     top: 80%;
     align-items: center;
-    font-size: 23px;
-   
+    font-size: 23px;   
   }
   .more-projects a{
     text-decoration: none;
-  }
-
-
-
-  @media screen and (max-width: 480px) {
-    .navigation{
-        width: 33%;
-    }
-    .navigation h1{
-        margin-top: 20%;
-        font-size: 1.1em;
-    }
-    .navigation ul{
-        margin-top: 60%;
-    }
-    .navigation ul li{
-        margin-top: 40%;
-       font-size: 0.7em;
-    }
-    .content{
-        width: 67%;
-    }
-    .introduction .profile-img{
-        height: 27%;
-        width: 41%;
-    }
-    .introduction h1{
-        top: 35%;
-        font-size: 1.6em;
-    }
-    .introduction p{
-        font-size: 1em;
-       
-        position: absolute;
-        top: 50%;
-        text-align: center;
-    }
   }
