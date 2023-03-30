@@ -21,7 +21,7 @@ body{
 .navigation{
     height: 100%;
     width: 30%;
-    background: #1E1C1C; 
+    background: #434242; 
     color: white;  
     position: sticky;
     top: 0;
@@ -43,13 +43,21 @@ body{
 }
 .navigation ul li a{
     text-decoration: none;
-    display: block;
+    display:inline-block;
+    transform: translateY(-19%);
     cursor: pointer;
+}
+.forward-arrow{
+    position: absolute;
+    right: 5%;
+    width: 20px;
+    transform: translateY(-19%);
+    color: #FEFCF3;
 }
 .content{
     height: 100%;
     width: 70%;
-    background-color: #FEFCF3;
+    background-color: #F3EFE0;
 }
 .hidden{
     visibility: hidden;
@@ -88,7 +96,7 @@ body{
 } 
 .education h1{
 position: absolute;
-top: 15%;
+top: 12%;
 }
 .education ul{
     width: 50%;
@@ -96,7 +104,7 @@ top: 15%;
     margin: 0;
     padding: 0;  
     position: absolute;
-   top: 25%;
+   top: 20%;
    margin-top: 20px;
 }
 .institute-name{
@@ -118,7 +126,7 @@ top: 15%;
   }  
   .experience h1{
       position: absolute;
-      top:15%;
+      top:12%;
   }
   .experience ul{
     width: 50%;
@@ -126,7 +134,7 @@ top: 15%;
       margin: 0;
       padding: 0;  
       position: absolute;
-     top: 25%;
+     top: 20%;
      margin-top: 20px;
   }
   .company-name{
@@ -148,7 +156,7 @@ top: 15%;
   }  
   .projects h1{
       position: absolute;
-      top:15%;
+      top:12%;
   }
   .projects ul{
     width: 50%;
@@ -156,7 +164,7 @@ top: 15%;
       margin: 0;
       padding: 0;  
       position: absolute;
-     top: 25%;
+     top: 20%;
      margin-top: 20px;
   }
   .project-name{
@@ -179,10 +187,14 @@ top: 15%;
   }
   .more-projects{
     position: absolute;
-    top: 80%;
+    top: 85%;
     align-items: center;
-    font-size: 23px;   
+    font-size: 20px;   
   }
   .more-projects a{
     text-decoration: none;
   }
+
+
+
+  

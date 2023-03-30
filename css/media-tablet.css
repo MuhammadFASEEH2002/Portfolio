@@ -1,10 +1,10 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px){
     .navigation{
         width: 33%;
     }
     .navigation h1{
         margin-top: 20%;
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
     .navigation ul{
         margin-top: 60%;
