@@ -1,0 +1,5 @@
+.navigation ul li:hover{
+    border: 3px solid white;  
+    border-right: 0;
+    border-left: 0
+}

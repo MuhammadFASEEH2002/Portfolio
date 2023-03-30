@@ -41,9 +41,6 @@ body{
  padding: 5%;
  cursor: pointer;
 }
-.navigation ul li:hover{
-    border: 3px solid white;  
-}
 .navigation ul li a{
     text-decoration: none;
     display: block;
@@ -94,6 +91,7 @@ position: absolute;
 top: 15%;
 }
 .education ul{
+    width: 50%;
     list-style-type: none;
     margin: 0;
     padding: 0;  
@@ -123,6 +121,7 @@ top: 15%;
       top:15%;
   }
   .experience ul{
+    width: 50%;
       list-style-type: none;
       margin: 0;
       padding: 0;  
@@ -152,6 +151,7 @@ top: 15%;
       top:15%;
   }
   .projects ul{
+    width: 50%;
       list-style-type: none;
       margin: 0;
       padding: 0;  
@@ -164,6 +164,11 @@ top: 15%;
       font-weight: bold;
       margin: 15px;
   }
+  .project-details{
+      font-size: 20px;
+      margin: 10px;
+      padding-left: 1%;
+  }
   .project-link {
     font-size: 20px;
     margin: 10px;
@@ -171,11 +176,6 @@ top: 15%;
   }
   .project-link a{
     text-decoration: none;
-  }
-  .project-details{
-      font-size: 20px;
-      margin: 10px;
-      padding-left: 1%;
   }
   .more-projects{
     position: absolute;

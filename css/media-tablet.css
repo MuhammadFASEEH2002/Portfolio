@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .navigation{
         width: 33%;
     }
@@ -58,6 +58,31 @@
    }
    .experience-details{
     font-size: 0.9em;
+    margin: 12px;
+   }
+   .projects h1{
+    top:7%;
+    font-size: 1.6em;
+   }
+   .projects ul{
+    top: 15%;
+    margin-top: 10%;
+   }
+   .project-name{
+    font-size: 1em;
+    margin: 10px;
+   }
+   .project-details{
+    font-size: 0.9em;
+    margin: 12px;
+   }
+   .project-link{
+    font-size: 0.9em;
+    margin: 12px;
+   }
+   .more-projects{
+    font-size: 0.9em;
+    top:70% ;
     margin: 12px;
    }
   }
