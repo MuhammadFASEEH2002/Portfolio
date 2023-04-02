@@ -4,7 +4,7 @@ var educationBtn = document.getElementById('education-btn');
 var workExperienceBtn = document.getElementById('workexperience-btn');
 var projectsBtn = document.getElementById('projects-btn');
 var contactBtn = document.getElementById('contact-btn');
- 
+introductionBtn.classList.add('button-click')
 introductionBtn.addEventListener('click', function() {
   document.getElementById('introduction').classList.remove("hidden"); 
   document.getElementById('education').classList.add("hidden");
